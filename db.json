@@ -1,1 +1,63 @@
-{"categoris":[{"id":"741e1873-4f21-4465-a095-f20867e33f56","name":"Industrial","createdAt":1706890324730,"updatedAt":1706890324730},{"id":"56abea59-97bd-4e1e-8ca1-d2eb55c1fb42","name":"Electronics","createdAt":1706890324731,"updatedAt":1706890324731}],"products":[{"id":"39b70750-355d-4e37-a6e7-046933db6fbb","price":175,"categoriId":"741e1873-4f21-4465-a095-f20867e33f56","color":"mint green","name":"Generic Wooden Towels","desciption":"The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design","createAt":1706890324731,"updateAt":"2023-12-18T11:35:17.062Z","image":"https://picsum.photos/seed/TYVJSACnL/640/480"},{"id":"6c41533c-d85d-4ebe-99a5-4748a1ddb40e","price":196,"categoriId":"741e1873-4f21-4465-a095-f20867e33f56","color":"silver","name":"Handmade Granite Soap","desciption":"Carbonite web goalkeeper gloves are ergonomically designed to give easy fit","createAt":1706890324733,"updateAt":"2023-03-25T02:41:10.151Z","image":"https://picsum.photos/seed/uHMtc5lOn/640/480"},{"id":"56c9e2fb-d43a-4ac0-8fc8-6cae49169234","price":141,"categoriId":"56abea59-97bd-4e1e-8ca1-d2eb55c1fb42","color":"indigo","name":"Recycled Bronze Pizza","desciption":"New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016","createAt":1706890324733,"updateAt":"2024-05-09T05:00:25.987Z","image":"https://picsum.photos/seed/H4C63/640/480"},{"id":"ad4aed05-40cf-40e1-af85-e6c5a0c5f03d","price":142,"categoriId":"56abea59-97bd-4e1e-8ca1-d2eb55c1fb42","color":"mint green","name":"Awesome Wooden Chair","desciption":"New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart","createAt":1706890324733,"updateAt":"2024-05-02T00:12:52.175Z","image":"https://picsum.photos/seed/VOwLYaP/640/480"}],"profile":[]}
+{
+  "categorys": [
+    {
+      "id": "5c5d368d-fcfb-45d2-a988-412e9bce9d95",
+      "name": "Outdoors",
+      "createdAt": 1706890757311,
+      "updatedAt": 1706890757311
+    },
+    {
+      "id": "5c11ed4e-fe31-4245-930a-0b25d38103b2",
+      "name": "Computers",
+      "createdAt": 1706890757311,
+      "updatedAt": 1706890757311
+    }
+  ],
+  "products": [
+    {
+      "id": "d202f8f2-f31b-46d1-b6a3-32be659b79f9",
+      "price": 147,
+      "categoryId": "5c5d368d-fcfb-45d2-a988-412e9bce9d95",
+      "color": "teal",
+      "name": "Small Frozen Soap",
+      "desciption": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createAt": 1706890757311,
+      "updateAt": "2024-07-28T12:32:55.650Z",
+      "image": "https://picsum.photos/seed/M5pwt/640/480"
+    },
+    {
+      "id": "1882e950-9177-41b7-b6e9-4711ea528ce3",
+      "price": 163,
+      "categoryId": "5c5d368d-fcfb-45d2-a988-412e9bce9d95",
+      "color": "turquoise",
+      "name": "Intelligent Cotton Shoes",
+      "desciption": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "createAt": 1706890757312,
+      "updateAt": "2023-03-11T12:52:49.668Z",
+      "image": "https://picsum.photos/seed/Tn3QrMar/640/480"
+    },
+    {
+      "id": "baec84de-f4fe-4cdc-9c06-3fc7ade5364d",
+      "price": 196,
+      "categoryId": "5c11ed4e-fe31-4245-930a-0b25d38103b2",
+      "color": "sky blue",
+      "name": "Handmade Plastic Chicken",
+      "desciption": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createAt": 1706890757313,
+      "updateAt": "2023-07-29T20:27:56.438Z",
+      "image": "https://picsum.photos/seed/nkcb2ulnt/640/480"
+    },
+    {
+      "id": "8678661a-a227-47f2-bd7c-cfdba570ea52",
+      "price": 135,
+      "categoryId": "5c11ed4e-fe31-4245-930a-0b25d38103b2",
+      "color": "azure",
+      "name": "Tasty Metal Chair",
+      "desciption": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createAt": 1706890757313,
+      "updateAt": "2024-07-14T11:35:07.940Z",
+      "image": "https://picsum.photos/seed/hNa1KBBRBz/640/480"
+    }
+  ],
+  "profile": []
+}

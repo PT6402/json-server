@@ -33,7 +33,7 @@ const randomProductsList = (categoryList, numberProduct) => {
             // symbol: "$",
           }),
         ),
-        categoriId: cate.id,
+        categoryId: cate.id,
         color: fakerVI.color.human(),
         // color: fakerVI.color.rgb({
         //   format: "hex",
@@ -52,10 +52,10 @@ const randomProductsList = (categoryList, numberProduct) => {
   return productList;
 };
 !(() => {
-  const categoris = randomCategoriesList(2);
-  const products = randomProductsList(categoris, 2);
+  const categorys = randomCategoriesList(2);
+  const products = randomProductsList(categorys, 2);
   const db = {
-    categoris,
+    categorys,
     products,
     profile: [],
   };
