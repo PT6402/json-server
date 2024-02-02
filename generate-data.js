@@ -33,7 +33,7 @@ const randomProductsList = (categoryList, numberProduct) => {
             // symbol: "$",
           }),
         ),
-        categoryId: cate.id,
+        categoriId: cate.id,
         color: fakerVI.color.human(),
         // color: fakerVI.color.rgb({
         //   format: "hex",
