@@ -1,5 +1,5 @@
-const { fakerVI } = require("@faker-js/faker");
-const fs = require("fs");
+const { fakerVI } = require('@faker-js/faker');
+const fs = require('fs');
 
 const randomCategoriesList = (n) => {
   if (n >= 0) {
@@ -31,7 +31,7 @@ const randomProductsList = (categoryList, numberProduct) => {
             max: 200,
             dec: 0,
             // symbol: "$",
-          })
+          }),
         ),
         categoryId: cate.id,
         color: fakerVI.color.human(),
@@ -52,15 +52,15 @@ const randomProductsList = (categoryList, numberProduct) => {
   return productList;
 };
 !(() => {
-  const categories = randomCategoriesList(5);
-  const products = randomProductsList(categories, 10);
+  const categories = randomCategoriesList(2);
+  const products = randomProductsList(categories, 2);
   const db = {
     categories,
     products,
     profile: [],
   };
   //write db object to db.json
-  fs.writeFile("db.json", JSON.stringify(db), () => {
-    console.log("Generate data success");
+  fs.writeFile('db.json', JSON.stringify(db), () => {
+    console.log('Generate data success');
   });
 })();
