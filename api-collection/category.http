@@ -1,0 +1,28 @@
+@model=categories
+@baseUrl=http://localhost:8080/api
+###
+# @name getAll
+GET {{baseUrl}}/{{model}} 
+
+###
+# @name add
+POST {{baseUrl}}/{{model}}
+Content-Type: application/json
+
+{
+    "name": "Automotive test",
+    "createdAt": 1706867542190,
+    "updatedAt": 1706867542190
+}
+###
+# @name update
+PUT {{baseUrl}}/{{model}}/1
+Content-Type: application/json
+
+{
+    "title": "test post 1",
+    "views": 200
+}
+###
+# @name delete
+DELETE {{baseUrl}}/{{model}}/1

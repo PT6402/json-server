@@ -1,0 +1,46 @@
+@model=products
+@baseUrl=http://localhost:8080/api
+###
+# @name getAll
+GET {{baseUrl}}/{{model}} 
+
+###
+# @name filter
+GET {{baseUrl}}/{{model}}?price_gte=160
+
+
+###
+# @name pagination
+GET {{baseUrl}}/{{model}}?_page=2&_limit=2
+
+
+###
+# @name sort
+GET {{baseUrl}}/{{model}}?_sort=price&_order=desc
+
+###
+# @name search
+GET {{baseUrl}}/{{model}}?name_like=Wooden
+
+
+###
+# @name add
+POST {{baseUrl}}/{{model}}
+Content-Type: application/json
+
+{
+    "name": "Automotive test",
+    "createdAt": 1706867542190,
+    "updatedAt": 1706867542190
+}
+###
+# @name update
+PATCH  {{baseUrl}}/{{model}}/271d1eb4-ef15-4466-9e04-d19f420c027d
+Content-Type: application/json
+
+{
+   "name": "Oriental Wooden Chip"
+}
+###
+# @name delete
+DELETE {{baseUrl}}/{{model}}/1
