@@ -53,7 +53,7 @@ const randomProductsList = (categoryList, numberProduct) => {
 };
 !(() => {
   const categoris = randomCategoriesList(2);
-  const products = randomProductsList(categories, 2);
+  const products = randomProductsList(categoris, 2);
   const db = {
     categoris,
     products,
