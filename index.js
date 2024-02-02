@@ -46,7 +46,7 @@ router.render = (req, res) => {
 };
 
 // Use default router
-server.use('/api', router);
+server.use(router);
 server.listen(8080, () => {
   console.log('JSON Server is running');
 });
