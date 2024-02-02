@@ -1,7 +1,7 @@
 const jsonServer = require('json-server');
 const path = require('path');
 const server = jsonServer.create();
-const router = jsonServer.router(path.join(__dirname, `/tmp/db.json`));
+const router = jsonServer.router(path.join(__dirname, `../../tmp/db.json`));
 const middlewares = jsonServer.defaults();
 const queryString = require('query-string');
 
