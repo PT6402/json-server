@@ -52,10 +52,10 @@ const randomProductsList = (categoryList, numberProduct) => {
   return productList;
 };
 !(() => {
-  const categories = randomCategoriesList(2);
+  const categoris = randomCategoriesList(2);
   const products = randomProductsList(categories, 2);
   const db = {
-    categories,
+    categoris,
     products,
     profile: [],
   };

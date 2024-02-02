@@ -1,1 +1,63 @@
-{"categories":[{"id":"d97e24ea-7313-443d-ba71-f7a2638f3c7a","name":"Sports","createdAt":1706890027694,"updatedAt":1706890027694},{"id":"15d95a89-6b4e-46d3-a4d9-852eb5a9a104","name":"Music","createdAt":1706890027694,"updatedAt":1706890027694}],"products":[{"id":"fd5977a5-9c6f-4691-976a-bb98c55f058e","price":199,"categoriId":"d97e24ea-7313-443d-ba71-f7a2638f3c7a","color":"salmon","name":"Unbranded Plastic Keyboard","desciption":"New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016","createAt":1706890027694,"updateAt":"2024-03-09T04:37:28.221Z","image":"https://picsum.photos/seed/Otd2W5/640/480"},{"id":"b9d837f6-b3c8-4718-96fd-ff86cd1bed7f","price":166,"categoriId":"d97e24ea-7313-443d-ba71-f7a2638f3c7a","color":"purple","name":"Elegant Steel Bacon","desciption":"Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles","createAt":1706890027695,"updateAt":"2023-06-20T15:03:32.941Z","image":"https://picsum.photos/seed/F4WkKbu/640/480"},{"id":"6e939dcb-3697-4d25-a851-7d4a05095e0b","price":101,"categoriId":"15d95a89-6b4e-46d3-a4d9-852eb5a9a104","color":"lavender","name":"Handmade Steel Bacon","desciption":"The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality","createAt":1706890027695,"updateAt":"2024-12-12T17:48:19.307Z","image":"https://picsum.photos/seed/y1lmK3kVa/640/480"},{"id":"cabde6c5-4ea3-426a-a89b-5cad1594867c","price":133,"categoriId":"15d95a89-6b4e-46d3-a4d9-852eb5a9a104","color":"orange","name":"Unbranded Soft Computer","desciption":"The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design","createAt":1706890027695,"updateAt":"2024-08-26T18:05:14.519Z","image":"https://picsum.photos/seed/Pyl6P/640/480"}],"profile":[]}
+{
+  "categories": [
+    {
+      "id": "d97e24ea-7313-443d-ba71-f7a2638f3c7a",
+      "name": "Sports",
+      "createdAt": 1706890027694,
+      "updatedAt": 1706890027694
+    },
+    {
+      "id": "15d95a89-6b4e-46d3-a4d9-852eb5a9a104",
+      "name": "Music",
+      "createdAt": 1706890027694,
+      "updatedAt": 1706890027694
+    }
+  ],
+  "products": [
+    {
+      "id": "fd5977a5-9c6f-4691-976a-bb98c55f058e",
+      "price": 199,
+      "categoriId": "d97e24ea-7313-443d-ba71-f7a2638f3c7a",
+      "color": "salmon",
+      "name": "Unbranded Plastic Keyboard",
+      "desciption": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "createAt": 1706890027694,
+      "updateAt": "2024-03-09T04:37:28.221Z",
+      "image": "https://picsum.photos/seed/Otd2W5/640/480"
+    },
+    {
+      "id": "b9d837f6-b3c8-4718-96fd-ff86cd1bed7f",
+      "price": 166,
+      "categoriId": "d97e24ea-7313-443d-ba71-f7a2638f3c7a",
+      "color": "purple",
+      "name": "Elegant Steel Bacon",
+      "desciption": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createAt": 1706890027695,
+      "updateAt": "2023-06-20T15:03:32.941Z",
+      "image": "https://picsum.photos/seed/F4WkKbu/640/480"
+    },
+    {
+      "id": "6e939dcb-3697-4d25-a851-7d4a05095e0b",
+      "price": 101,
+      "categoriId": "15d95a89-6b4e-46d3-a4d9-852eb5a9a104",
+      "color": "lavender",
+      "name": "Handmade Steel Bacon",
+      "desciption": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createAt": 1706890027695,
+      "updateAt": "2024-12-12T17:48:19.307Z",
+      "image": "https://picsum.photos/seed/y1lmK3kVa/640/480"
+    },
+    {
+      "id": "cabde6c5-4ea3-426a-a89b-5cad1594867c",
+      "price": 133,
+      "categoriId": "15d95a89-6b4e-46d3-a4d9-852eb5a9a104",
+      "color": "orange",
+      "name": "Unbranded Soft Computer",
+      "desciption": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createAt": 1706890027695,
+      "updateAt": "2024-08-26T18:05:14.519Z",
+      "image": "https://picsum.photos/seed/Pyl6P/640/480"
+    }
+  ],
+  "profile": []
+}
