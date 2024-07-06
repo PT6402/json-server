@@ -1,62 +1,884 @@
 {
-  "categorys": [
+  "categories": [
     {
-      "id": "5c5d368d-fcfb-45d2-a988-412e9bce9d95",
-      "name": "Out",
-      "createdAt": 1706890757311,
-      "updatedAt": 1706890757311
+      "id": "5e9b13c0-21f7-44df-a4b8-8045dce9643f",
+      "name": "Kids",
+      "thumbnail": "https://picsum.photos/seed/amotIF3C6/640/480",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients"
     },
     {
-      "id": "5c11ed4e-fe31-4245-930a-0b25d38103b2",
-      "name": "Computers",
-      "createdAt": 1706890757311,
-      "updatedAt": 1706890757311
+      "id": "08a387b3-3d02-451d-9092-7cc22f7d79d1",
+      "name": "Home",
+      "thumbnail": "https://picsum.photos/seed/ZWN62/640/480",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart"
+    },
+    {
+      "id": "e92105f6-b95f-49e2-bdb3-e128fc0db364",
+      "name": "Beauty",
+      "thumbnail": "https://picsum.photos/seed/Qs82c0o/640/480",
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design"
+    },
+    {
+      "id": "4eb79a84-54b0-49cc-88e6-7157091fe4eb",
+      "name": "Music",
+      "thumbnail": "https://picsum.photos/seed/tcfruz/640/480",
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart"
+    },
+    {
+      "id": "2288d2eb-f2bd-4111-906c-14ead587b250",
+      "name": "Tools",
+      "thumbnail": "https://picsum.photos/seed/C8bZQ/640/480",
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality"
+    },
+    {
+      "id": "135685f3-ae36-4cad-8bfa-1f2e1e4656ce",
+      "name": "Garden",
+      "thumbnail": "https://picsum.photos/seed/DOlHAY8LU/640/480",
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients"
+    },
+    {
+      "id": "052eaf7e-7ffe-4cc2-b6b1-2faa749428a5",
+      "name": "Automotive",
+      "thumbnail": "https://picsum.photos/seed/DELIkkB/640/480",
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016"
+    },
+    {
+      "id": "4642bd64-8f40-479a-b996-42968ac2dd30",
+      "name": "Movies",
+      "thumbnail": "https://picsum.photos/seed/dcuvMLPt7v/640/480",
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit"
     }
   ],
-  "products": [
+  "books": [
     {
-      "id": "d202f8f2-f31b-46d1-b6a3-32be659b79f9",
-      "price": 147,
-      "categoryId": "5c5d368d-fcfb-45d2-a988-412e9bce9d95",
-      "color": "teal",
-      "name": "Small Frozen Soap",
-      "desciption": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-      "createAt": 1706890757311,
-      "updateAt": "2024-07-28T12:32:55.650Z",
-      "image": "https://picsum.photos/seed/M5pwt/640/480"
+      "bookId": "a853c466-24bd-4f55-9707-581f201ceb2c",
+      "nameBook": "Bespoke Rubber Table",
+      "price": 863,
+      "pageQuantity": 684,
+      "rating": 3.9,
+      "ratingQuantity": 3029,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "edition": 2023,
+      "authors": [
+        {
+          "authorId": "14c974fe-4043-45fd-ae99-7d2b32d892a5",
+          "authorName": "Yến Thảo Đoàn"
+        }
+      ],
+      "images": "https://picsum.photos/seed/RJJiI7e3/640/480",
+      "categories": [
+        {
+          "id": "4eb79a84-54b0-49cc-88e6-7157091fe4eb",
+          "name": "Music"
+        },
+        {
+          "id": "052eaf7e-7ffe-4cc2-b6b1-2faa749428a5",
+          "name": "Automotive"
+        },
+        {
+          "id": "2288d2eb-f2bd-4111-906c-14ead587b250",
+          "name": "Tools"
+        }
+      ],
+      "page": 4721,
+      "isBestSeller": true,
+      "reviews": [
+        {
+          "userId": "1d820c6f-af87-44b4-bec7-de024ae06090",
+          "content": "Làm mượn tám thương máy một.",
+          "rating": 1,
+          "userName": "Khai Minh Phạm",
+          "dateReview": "2023-07-15T04:20:06.336Z"
+        },
+        {
+          "userId": "ba9242a6-566f-400b-9009-a691ec940c2b",
+          "content": "Giết leo quần bảy.",
+          "rating": 4,
+          "userName": "Ngọc Điệp Mai",
+          "dateReview": "2024-07-10T03:43:02.608Z"
+        },
+        {
+          "userId": "64e5e738-881d-4210-bd10-48594bf5b606",
+          "content": "Viết đập ờ thì.",
+          "rating": 3,
+          "userName": "Hoàng Khải Lý",
+          "dateReview": "2023-10-26T03:00:38.939Z"
+        }
+      ]
     },
     {
-      "id": "1882e950-9177-41b7-b6e9-4711ea528ce3",
-      "price": 163,
-      "categoryId": "5c5d368d-fcfb-45d2-a988-412e9bce9d95",
-      "color": "turquoise",
-      "name": "Intelligent Cotton Shoes",
-      "desciption": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "createAt": 1706890757312,
-      "updateAt": "2023-03-11T12:52:49.668Z",
-      "image": "https://picsum.photos/seed/Tn3QrMar/640/480"
+      "bookId": "c6eb2cbf-8508-4cf2-9627-12fa045f11cc",
+      "nameBook": "Recycled Rubber Ball",
+      "price": 870,
+      "pageQuantity": 567,
+      "rating": 0.9,
+      "ratingQuantity": 2339,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "edition": 2024,
+      "authors": [
+        {
+          "authorId": "eae09053-bf0e-4620-b591-b95b83bbc8de",
+          "authorName": "Lâm Dũng Ngô"
+        },
+        {
+          "authorId": "54c61489-6aad-47fb-9ca8-3271b5cdf6a7",
+          "authorName": "Thúy My Trần"
+        }
+      ],
+      "images": "https://picsum.photos/seed/dEvVKBZ92/640/480",
+      "categories": [
+        {
+          "id": "e92105f6-b95f-49e2-bdb3-e128fc0db364",
+          "name": "Beauty"
+        },
+        {
+          "id": "052eaf7e-7ffe-4cc2-b6b1-2faa749428a5",
+          "name": "Automotive"
+        },
+        {
+          "id": "135685f3-ae36-4cad-8bfa-1f2e1e4656ce",
+          "name": "Garden"
+        }
+      ],
+      "page": 3649,
+      "isBestSeller": true,
+      "reviews": [
+        {
+          "userId": "9e403307-73f3-4b50-907e-bc745147ffe3",
+          "content": "Là thương mướn bàn thích hương mua.",
+          "rating": 4,
+          "userName": "Trọng Việt Tăng",
+          "dateReview": "2024-04-10T14:13:54.597Z"
+        },
+        {
+          "userId": "cb21d233-abee-445c-9113-02960fd8af40",
+          "content": "Đạp quần yêu đâu yêu xuồng.",
+          "rating": 0,
+          "userName": "Khánh My Trương",
+          "dateReview": "2025-01-02T12:56:53.693Z"
+        },
+        {
+          "userId": "a04b5d5f-df79-432c-b9eb-83680422d5d1",
+          "content": "Đâu con quê ác cửa mua ba tám bảy sáu.",
+          "rating": 1,
+          "userName": "Huyền Trân Đoàn",
+          "dateReview": "2023-10-30T21:17:45.428Z"
+        },
+        {
+          "userId": "42a2c94b-d958-4e69-af5b-406ee76e59c0",
+          "content": "Trời giày biển bè tô leo cửa.",
+          "rating": 4,
+          "userName": "Phương Thảo Hoàng",
+          "dateReview": "2023-12-11T05:49:53.760Z"
+        },
+        {
+          "userId": "39249f2e-984c-41ff-8c82-e49a18d95d0d",
+          "content": "Bảy máy mua mượn được đang trăng.",
+          "rating": 5,
+          "userName": "Bảo Lan Hà",
+          "dateReview": "2024-09-07T15:36:31.367Z"
+        },
+        {
+          "userId": "5d7ac519-00d3-4391-886f-ed9d64388051",
+          "content": "Năm ác em được.",
+          "rating": 3,
+          "userName": "Phục Lễ Nguyễn",
+          "dateReview": "2024-03-13T07:42:59.809Z"
+        }
+      ]
     },
     {
-      "id": "baec84de-f4fe-4cdc-9c06-3fc7ade5364d",
-      "price": 196,
-      "categoryId": "5c11ed4e-fe31-4245-930a-0b25d38103b2",
-      "color": "sky blue",
-      "name": "Handmade Plastic Chicken",
-      "desciption": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-      "createAt": 1706890757313,
-      "updateAt": "2023-07-29T20:27:56.438Z",
-      "image": "https://picsum.photos/seed/nkcb2ulnt/640/480"
+      "bookId": "c7130aea-282f-4f7f-a8a8-a1d9e023a124",
+      "nameBook": "Small Metal Soap",
+      "price": 570,
+      "pageQuantity": 904,
+      "rating": 4.4,
+      "ratingQuantity": 3463,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "edition": 2025,
+      "authors": [
+        {
+          "authorId": "e2a0dcbd-fcbf-4f56-9d80-261632ae05dd",
+          "authorName": "Đan Tâm Tô"
+        }
+      ],
+      "images": "https://picsum.photos/seed/0U7wKi7lM2/640/480",
+      "categories": [
+        {
+          "id": "052eaf7e-7ffe-4cc2-b6b1-2faa749428a5",
+          "name": "Automotive"
+        },
+        {
+          "id": "4eb79a84-54b0-49cc-88e6-7157091fe4eb",
+          "name": "Music"
+        }
+      ],
+      "page": 1180,
+      "isBestSeller": false,
+      "reviews": [
+        {
+          "userId": "32233d9b-6790-4cca-a349-60dfc6adab15",
+          "content": "Là ruộng chìm lầu.",
+          "rating": 5,
+          "userName": "Thanh Yến Hoàng",
+          "dateReview": "2023-08-17T13:30:26.568Z"
+        },
+        {
+          "userId": "61b3d941-8a8b-47fb-9fe4-b15ea489c5ce",
+          "content": "Khâu được yêu ngọt đỏ chín.",
+          "rating": 0,
+          "userName": "Việt Huy Phạm",
+          "dateReview": "2023-08-11T11:06:36.800Z"
+        },
+        {
+          "userId": "924b8201-07a9-4a1c-b60d-fd86cca8adb2",
+          "content": "Bơi tô lầu viết bạn.",
+          "rating": 1,
+          "userName": "Phương Trang Trịnh",
+          "dateReview": "2023-11-02T10:17:39.898Z"
+        },
+        {
+          "userId": "c6722e66-f9d3-45c0-a761-31c477a6f3cf",
+          "content": "May thế yêu khoảng biết.",
+          "rating": 3,
+          "userName": "Dạ Yến Vương",
+          "dateReview": "2024-10-11T03:30:03.985Z"
+        },
+        {
+          "userId": "ee0dcce1-77f0-46a4-8f90-0efe574e8317",
+          "content": "Thương thôi trời dép.",
+          "rating": 1,
+          "userName": "Như Loan Đinh",
+          "dateReview": "2023-08-15T19:47:08.012Z"
+        },
+        {
+          "userId": "faa767eb-ffdc-4ff8-b44b-a4d10d0dd2b7",
+          "content": "Biết quê núi thuyền con năm.",
+          "rating": 0,
+          "userName": "Lệ Huyền Đặng",
+          "dateReview": "2023-08-25T09:07:08.246Z"
+        },
+        {
+          "userId": "2854d396-104d-47f2-afe4-9feea542e5cf",
+          "content": "Lỗi làm nghỉ mười ghét hóa thế năm.",
+          "rating": 5,
+          "userName": "Mộng Long Tô",
+          "dateReview": "2025-06-25T14:55:25.160Z"
+        },
+        {
+          "userId": "97267b9c-746b-47c4-97c2-c4306b129ae1",
+          "content": "Đã xe ác khoảng.",
+          "rating": 5,
+          "userName": "Đồng Bằng Lê",
+          "dateReview": "2024-05-27T20:52:15.711Z"
+        }
+      ]
     },
     {
-      "id": "8678661a-a227-47f2-bd7c-cfdba570ea52",
-      "price": 135,
-      "categoryId": "5c11ed4e-fe31-4245-930a-0b25d38103b2",
-      "color": "azure",
-      "name": "Tasty Metal Chair",
-      "desciption": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-      "createAt": 1706890757313,
-      "updateAt": "2024-07-14T11:35:07.940Z",
-      "image": "https://picsum.photos/seed/hNa1KBBRBz/640/480"
+      "bookId": "9654897e-62b5-48c9-ad70-42837a023db9",
+      "nameBook": "Handcrafted Steel Table",
+      "price": 891,
+      "pageQuantity": 483,
+      "rating": 0.8,
+      "ratingQuantity": 845,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "edition": 2023,
+      "authors": [
+        {
+          "authorId": "a3c62f9f-b91d-4d55-940e-584f10e3f9c0",
+          "authorName": "Hàm Ý Bùi"
+        }
+      ],
+      "images": "https://picsum.photos/seed/1IpK9I6q/640/480",
+      "categories": [
+        {
+          "id": "052eaf7e-7ffe-4cc2-b6b1-2faa749428a5",
+          "name": "Automotive"
+        },
+        {
+          "id": "4eb79a84-54b0-49cc-88e6-7157091fe4eb",
+          "name": "Music"
+        },
+        {
+          "id": "08a387b3-3d02-451d-9092-7cc22f7d79d1",
+          "name": "Home"
+        }
+      ],
+      "page": 1572,
+      "isBestSeller": true,
+      "reviews": [
+        {
+          "userId": "d88734ce-ff76-434f-b0b0-d8cf3536d51c",
+          "content": "Ghế dép đồng ừ.",
+          "rating": 0,
+          "userName": "Sơn Dương Vương",
+          "dateReview": "2024-12-19T04:16:11.800Z"
+        },
+        {
+          "userId": "c91b37a4-469a-4a40-b508-e481e2030595",
+          "content": "Áo ghét cái biết năm việc.",
+          "rating": 4,
+          "userName": "Trường Vinh Mai",
+          "dateReview": "2023-11-13T13:22:25.820Z"
+        },
+        {
+          "userId": "9be70207-ba91-41b2-9432-870650590350",
+          "content": "Ngọt mướn chìm dép nhà áo mướn.",
+          "rating": 1,
+          "userName": "Hồng Phúc Phùng",
+          "dateReview": "2024-10-09T06:39:45.149Z"
+        },
+        {
+          "userId": "e3cfd50d-2a3f-4ecf-a9e6-3a05e973121b",
+          "content": "Ngọt thương không nha thích tàu.",
+          "rating": 0,
+          "userName": "Tường Vy Phan",
+          "dateReview": "2024-11-27T12:25:21.452Z"
+        },
+        {
+          "userId": "23a7413b-29ab-4350-80b9-f651476a0394",
+          "content": "Thôi thì dép ờ.",
+          "rating": 2,
+          "userName": "Chiêu Minh Vương",
+          "dateReview": "2025-01-25T06:16:38.889Z"
+        },
+        {
+          "userId": "e9d7f385-a392-474b-8508-4b146937b07d",
+          "content": "Đồng lầu kim.",
+          "rating": 0,
+          "userName": "Mỹ Thuần Tăng",
+          "dateReview": "2024-05-14T17:44:10.391Z"
+        }
+      ]
+    },
+    {
+      "bookId": "7afa480c-2956-418e-a1c7-c7d76c5f0cc9",
+      "nameBook": "Modern Granite Pizza",
+      "price": 624,
+      "pageQuantity": 905,
+      "rating": 3.6,
+      "ratingQuantity": 2961,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "edition": 2023,
+      "authors": [
+        {
+          "authorId": "4d8efbcb-87c8-492a-aceb-3954ba0a5567",
+          "authorName": "Lan Nhi Ngô"
+        },
+        {
+          "authorId": "813303d3-40aa-4f8a-a874-94e1eb981064",
+          "authorName": "Kim Trang Lâm"
+        },
+        {
+          "authorId": "9e11bb3b-54a5-4280-a488-93bf4582b4cf",
+          "authorName": "Thành Vinh Phan"
+        }
+      ],
+      "images": "https://picsum.photos/seed/uPqjm/640/480",
+      "categories": [
+        {
+          "id": "08a387b3-3d02-451d-9092-7cc22f7d79d1",
+          "name": "Home"
+        },
+        {
+          "id": "5e9b13c0-21f7-44df-a4b8-8045dce9643f",
+          "name": "Kids"
+        },
+        {
+          "id": "e92105f6-b95f-49e2-bdb3-e128fc0db364",
+          "name": "Beauty"
+        }
+      ],
+      "page": 696,
+      "isBestSeller": true,
+      "reviews": [
+        {
+          "userId": "3666a7d3-422e-4b40-9c19-e2fa04f755f8",
+          "content": "Hóa ghét làm thương thuê bàn trời ghế.",
+          "rating": 3,
+          "userName": "Xuân Tường Nguyễn",
+          "dateReview": "2025-03-20T12:28:36.172Z"
+        },
+        {
+          "userId": "f7c60741-678c-4032-a444-ea3c4529f30f",
+          "content": "Việc đồng quần gì quê lầu đập leo.",
+          "rating": 5,
+          "userName": "Hàm Nghi Lý",
+          "dateReview": "2024-04-30T21:30:32.604Z"
+        },
+        {
+          "userId": "562de699-57f1-4200-ab8e-203e878622af",
+          "content": "Xuồng giày ngọt là.",
+          "rating": 0,
+          "userName": "Diệu Ngà Đào",
+          "dateReview": "2024-12-07T15:36:47.423Z"
+        },
+        {
+          "userId": "ef91e9f0-b73c-49da-9f5f-5b32e5afc44e",
+          "content": "Á á khoan đập.",
+          "rating": 5,
+          "userName": "Gia Kiệt Vương",
+          "dateReview": "2024-10-31T17:21:45.070Z"
+        },
+        {
+          "userId": "e2cbeab0-2a1d-4669-a012-ec01d3e74d91",
+          "content": "Đang tủ một xe tui nha tủ.",
+          "rating": 4,
+          "userName": "Lương Tài Phan",
+          "dateReview": "2024-03-07T20:33:52.470Z"
+        },
+        {
+          "userId": "4ac3c406-2544-4e29-a285-7a3e050992d5",
+          "content": "Cửa ác mượn bơi em chìm sáu.",
+          "rating": 1,
+          "userName": "Hoạ Mi Trần",
+          "dateReview": "2023-08-08T23:45:09.266Z"
+        }
+      ]
+    },
+    {
+      "bookId": "caf5a786-197b-4a25-ab0c-10eded5ec860",
+      "nameBook": "Awesome Metal Salad",
+      "price": 627,
+      "pageQuantity": 597,
+      "rating": 1.8,
+      "ratingQuantity": 2599,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "edition": 2024,
+      "authors": [
+        {
+          "authorId": "2591d722-f82b-430e-973d-ff35cefa9e6e",
+          "authorName": "Ngọc Đoàn Phan"
+        },
+        {
+          "authorId": "56e2dca0-5598-4ea1-be74-4bd700b81e20",
+          "authorName": "Đức Mạnh Đỗ"
+        }
+      ],
+      "images": "https://picsum.photos/seed/6HicyQqT/640/480",
+      "categories": [
+        {
+          "id": "135685f3-ae36-4cad-8bfa-1f2e1e4656ce",
+          "name": "Garden"
+        },
+        {
+          "id": "e92105f6-b95f-49e2-bdb3-e128fc0db364",
+          "name": "Beauty"
+        },
+        {
+          "id": "5e9b13c0-21f7-44df-a4b8-8045dce9643f",
+          "name": "Kids"
+        }
+      ],
+      "page": 2638,
+      "isBestSeller": true,
+      "reviews": [
+        {
+          "userId": "c12ef12e-f41c-404c-83cd-51a66439adf8",
+          "content": "Gió thế viết áo cửa lỗi dép.",
+          "rating": 4,
+          "userName": "Vy Lam Phùng",
+          "dateReview": "2024-12-12T21:54:13.672Z"
+        },
+        {
+          "userId": "3b6d5a84-74ce-454b-afdd-20d8a9b5dd41",
+          "content": "Núi lầu xuồng xe cửa chìm may yêu.",
+          "rating": 4,
+          "userName": "Phi Khanh Hoàng",
+          "dateReview": "2024-06-06T04:36:19.979Z"
+        },
+        {
+          "userId": "88bb3ded-8d3a-464c-b77c-2bef85b1887a",
+          "content": "Chết một quần tôi bơi đỏ.",
+          "rating": 0,
+          "userName": "Thạch Thảo Dương",
+          "dateReview": "2025-04-08T22:12:48.583Z"
+        },
+        {
+          "userId": "b92b42db-41d5-4115-956a-67e0ec9193f7",
+          "content": "Bơi một bốn phá.",
+          "rating": 3,
+          "userName": "Thành Nguyên Hoàng",
+          "dateReview": "2024-09-01T10:00:10.174Z"
+        },
+        {
+          "userId": "322d1f4f-1820-462f-b2aa-3aea8d415405",
+          "content": "Viết là mây.",
+          "rating": 0,
+          "userName": "Phi Điệp Tăng",
+          "dateReview": "2023-11-02T18:21:49.794Z"
+        },
+        {
+          "userId": "da5995aa-22dc-43d6-9fb4-6cc37b5ca226",
+          "content": "Núi nha đá giày đồng đập.",
+          "rating": 3,
+          "userName": "Duy Khiêm Tăng",
+          "dateReview": "2023-08-07T23:53:49.646Z"
+        },
+        {
+          "userId": "2abf70de-9540-4c0a-83da-10db23b0270d",
+          "content": "Ờ ác mười biết.",
+          "rating": 5,
+          "userName": "Duy Hoàng Hoàng",
+          "dateReview": "2023-11-01T05:44:06.899Z"
+        },
+        {
+          "userId": "1190f1a9-f42c-4b71-8ce5-77a8d7fb2f11",
+          "content": "Đã hai không đâu độc viết con áo.",
+          "rating": 1,
+          "userName": "Trọng Duy Đoàn",
+          "dateReview": "2024-03-08T09:39:30.068Z"
+        }
+      ]
+    },
+    {
+      "bookId": "b8cbe511-c988-414f-9757-e8e53def69e0",
+      "nameBook": "Awesome Wooden Sausages",
+      "price": 212,
+      "pageQuantity": 936,
+      "rating": 1.9,
+      "ratingQuantity": 3072,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "edition": 2025,
+      "authors": [
+        {
+          "authorId": "ac5479bc-7bb1-4eea-ba3a-60eb116dc6d4",
+          "authorName": "Xuyến Chi Đào"
+        },
+        {
+          "authorId": "b74ea746-9450-4288-8bdc-c8d61fe234ee",
+          "authorName": "Nguyệt Lan Hà"
+        },
+        {
+          "authorId": "5ea95ff4-7600-4c92-a1b0-9fc0b159f641",
+          "authorName": "Tiến Võ Trần"
+        }
+      ],
+      "images": "https://picsum.photos/seed/cRJqF9YXqa/640/480",
+      "categories": [
+        {
+          "id": "4642bd64-8f40-479a-b996-42968ac2dd30",
+          "name": "Movies"
+        },
+        {
+          "id": "5e9b13c0-21f7-44df-a4b8-8045dce9643f",
+          "name": "Kids"
+        },
+        {
+          "id": "2288d2eb-f2bd-4111-906c-14ead587b250",
+          "name": "Tools"
+        }
+      ],
+      "page": 4946,
+      "isBestSeller": true,
+      "reviews": [
+        {
+          "userId": "af80c8bd-c167-43f2-9505-838f61abeafb",
+          "content": "Ác leo áo lỗi.",
+          "rating": 3,
+          "userName": "Bửu Chưởng Đinh",
+          "dateReview": "2023-10-03T10:16:46.968Z"
+        },
+        {
+          "userId": "cd7fcfd2-ecc4-42e9-9020-1a5e883c11f6",
+          "content": "Bạn sáu cái.",
+          "rating": 1,
+          "userName": "Nhã Lý Đoàn",
+          "dateReview": "2024-11-25T10:21:27.534Z"
+        },
+        {
+          "userId": "bff7f884-0558-4d42-a512-2538558e40d9",
+          "content": "Ruộng biển tủ biết bàn.",
+          "rating": 5,
+          "userName": "Long Quân Phùng",
+          "dateReview": "2023-11-08T08:00:12.107Z"
+        },
+        {
+          "userId": "1394da8e-3cd6-4696-a88b-546527126d41",
+          "content": "Chín anh dép mây nón tôi gì xe đạp.",
+          "rating": 2,
+          "userName": "Quang Tài Đào",
+          "dateReview": "2024-12-12T20:45:49.953Z"
+        },
+        {
+          "userId": "49d45c79-77d9-40b6-b293-a57e7da84f9e",
+          "content": "Ừ là yêu tím cái đánh may.",
+          "rating": 5,
+          "userName": "Mỹ Lan Tăng",
+          "dateReview": "2023-10-24T12:44:26.989Z"
+        },
+        {
+          "userId": "daa23612-1ae9-44fa-be8e-6efb1a00a6c6",
+          "content": "Hai một hai chết ghế tím trời đã yêu nhà.",
+          "rating": 3,
+          "userName": "Nghị Quyền Lê",
+          "dateReview": "2024-12-19T04:20:01.493Z"
+        },
+        {
+          "userId": "f865d301-dba8-4d36-923a-3bc027049dcc",
+          "content": "Ghế gì núi thôi đâu khoảng là đã thích làm.",
+          "rating": 0,
+          "userName": "Thăng Long Vũ",
+          "dateReview": "2023-11-04T15:16:43.229Z"
+        },
+        {
+          "userId": "ef9a05d4-1289-4b76-badc-6e9d855b73e7",
+          "content": "Hóa sáu bảy nón nhà thế trời núi tủ.",
+          "rating": 1,
+          "userName": "Phương Thanh Trịnh",
+          "dateReview": "2024-02-06T21:59:47.872Z"
+        },
+        {
+          "userId": "0f61e72b-9802-4680-bf25-b7d13f14b598",
+          "content": "Biết yêu đánh xanh phá biết.",
+          "rating": 4,
+          "userName": "Hồng Thu Tăng",
+          "dateReview": "2023-09-03T21:33:15.679Z"
+        }
+      ]
+    },
+    {
+      "bookId": "2b80f8ce-1b6c-428c-ab89-0aad68bf9f8d",
+      "nameBook": "Elegant Soft Table",
+      "price": 679,
+      "pageQuantity": 204,
+      "rating": 3.6,
+      "ratingQuantity": 4530,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "edition": 2024,
+      "authors": [
+        {
+          "authorId": "02765191-8945-46e7-9a6a-baa5b3e42960",
+          "authorName": "Phúc Lâm Dương"
+        },
+        {
+          "authorId": "434b2fbd-548b-4e5d-9d98-5feb9d9816f1",
+          "authorName": "Bảo Hà Đinh"
+        },
+        {
+          "authorId": "f6e859dd-d0f3-4f9b-b12e-10511df58814",
+          "authorName": "Kim Tuyền Trịnh"
+        }
+      ],
+      "images": "https://picsum.photos/seed/97SFh/640/480",
+      "categories": [
+        {
+          "id": "135685f3-ae36-4cad-8bfa-1f2e1e4656ce",
+          "name": "Garden"
+        },
+        {
+          "id": "2288d2eb-f2bd-4111-906c-14ead587b250",
+          "name": "Tools"
+        },
+        {
+          "id": "5e9b13c0-21f7-44df-a4b8-8045dce9643f",
+          "name": "Kids"
+        }
+      ],
+      "page": 3159,
+      "isBestSeller": true,
+      "reviews": [
+        {
+          "userId": "58f4a962-cd28-4298-89a1-a796b81a8af2",
+          "content": "Ừ bảy xanh là leo hết.",
+          "rating": 1,
+          "userName": "Tường Chinh Phan",
+          "dateReview": "2024-07-13T17:18:10.581Z"
+        },
+        {
+          "userId": "4eb78d49-ed38-4f35-8f74-1c6bb974238b",
+          "content": "Nhà bơi tàu đồng một được.",
+          "rating": 2,
+          "userName": "Hải Duyên Lê",
+          "dateReview": "2025-05-02T11:14:38.175Z"
+        },
+        {
+          "userId": "e2b5397b-f882-436f-a23b-6e23ce336c81",
+          "content": "Bàn cái đang nghỉ một dép bảy xuồng.",
+          "rating": 0,
+          "userName": "Danh Thành Lâm",
+          "dateReview": "2023-11-18T01:14:45.920Z"
+        },
+        {
+          "userId": "7f544c10-50e6-4e2c-a525-1f693ca172e0",
+          "content": "Bè cái khoan hết làm gì độc á quê.",
+          "rating": 3,
+          "userName": "Minh Quân Hoàng",
+          "dateReview": "2025-06-06T09:56:55.914Z"
+        }
+      ]
+    },
+    {
+      "bookId": "0204f68c-792c-48a9-993f-667850c23230",
+      "nameBook": "Generic Frozen Shoes",
+      "price": 418,
+      "pageQuantity": 125,
+      "rating": 4.1,
+      "ratingQuantity": 3587,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "edition": 2023,
+      "authors": [
+        {
+          "authorId": "816d3c6a-28df-4b49-88d1-0533d8356b43",
+          "authorName": "Kim Vượng Trịnh"
+        },
+        {
+          "authorId": "77faff32-4170-46de-9449-62db677c112b",
+          "authorName": "Kỳ Duyên Nguyễn"
+        }
+      ],
+      "images": "https://picsum.photos/seed/7nA97/640/480",
+      "categories": [
+        {
+          "id": "4eb79a84-54b0-49cc-88e6-7157091fe4eb",
+          "name": "Music"
+        },
+        {
+          "id": "135685f3-ae36-4cad-8bfa-1f2e1e4656ce",
+          "name": "Garden"
+        }
+      ],
+      "page": 293,
+      "isBestSeller": false,
+      "reviews": [
+        {
+          "userId": "ca7132ab-eebd-4379-b56c-9e45d0e67798",
+          "content": "Tô thuyền biển.",
+          "rating": 0,
+          "userName": "Mai Thanh Hoàng",
+          "dateReview": "2024-11-23T22:56:50.064Z"
+        },
+        {
+          "userId": "c0c70902-8466-44ed-8aed-3169068e7314",
+          "content": "Gió đập khoan á nước thôi chín.",
+          "rating": 2,
+          "userName": "Chiêu Minh Vũ",
+          "dateReview": "2024-06-16T10:40:07.740Z"
+        },
+        {
+          "userId": "c856b23a-14d8-4cff-8033-d6bce9101bdf",
+          "content": "Độc hương ác may nón gió.",
+          "rating": 2,
+          "userName": "Thiên Khánh Lê",
+          "dateReview": "2024-07-04T04:29:41.670Z"
+        },
+        {
+          "userId": "6f9e07d2-96e5-4f8e-9aaa-2a133172b0e6",
+          "content": "Xuồng ruộng hết xanh mua đập ghế mười bàn sáu.",
+          "rating": 2,
+          "userName": "Thống Nhất Phùng",
+          "dateReview": "2024-04-14T03:33:57.732Z"
+        },
+        {
+          "userId": "a39e21f8-bbac-467e-9236-1e013c4e0e40",
+          "content": "Mười năm không con.",
+          "rating": 5,
+          "userName": "Bảo Hà Đỗ",
+          "dateReview": "2023-12-17T17:11:20.872Z"
+        }
+      ]
+    },
+    {
+      "bookId": "493fb677-8f98-4668-9421-044b966d4f47",
+      "nameBook": "Tasty Concrete Shirt",
+      "price": 691,
+      "pageQuantity": 884,
+      "rating": 4.2,
+      "ratingQuantity": 4277,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "edition": 2024,
+      "authors": [
+        {
+          "authorId": "f71e4d64-19be-4a4a-8766-13e64ae6c7f3",
+          "authorName": "Mỹ Nga Vũ"
+        },
+        {
+          "authorId": "204ceb6a-c267-4699-8b8c-2e197a536f12",
+          "authorName": "Xuân Cao Phùng"
+        },
+        {
+          "authorId": "2f3bb693-8de4-45e8-a474-5feba1a0420e",
+          "authorName": "Tường Minh Ngô"
+        }
+      ],
+      "images": "https://picsum.photos/seed/GMjGbRAa/640/480",
+      "categories": [
+        {
+          "id": "135685f3-ae36-4cad-8bfa-1f2e1e4656ce",
+          "name": "Garden"
+        },
+        {
+          "id": "2288d2eb-f2bd-4111-906c-14ead587b250",
+          "name": "Tools"
+        }
+      ],
+      "page": 1629,
+      "isBestSeller": false,
+      "reviews": [
+        {
+          "userId": "b4d5460a-24f4-49d2-b7f4-b3824ac0d97a",
+          "content": "Biển em gì mua ruộng việc tui ghế.",
+          "rating": 0,
+          "userName": "Hiếu Dụng Hoàng",
+          "dateReview": "2024-06-03T06:12:51.279Z"
+        },
+        {
+          "userId": "eaff719d-af2b-4edf-81e6-74db1fed83fb",
+          "content": "Áo may hóa con thích phá bơi.",
+          "rating": 4,
+          "userName": "Hoàng Hà Phạm",
+          "dateReview": "2024-12-11T12:20:53.576Z"
+        },
+        {
+          "userId": "954857d1-aafb-4a97-bbd6-2caa07d8f33c",
+          "content": "Đã tôi may quần xe hai viết em con mây.",
+          "rating": 3,
+          "userName": "Công Hậu Tô",
+          "dateReview": "2024-09-01T22:38:25.541Z"
+        },
+        {
+          "userId": "0fb7d293-7651-404b-89dd-550f1c684e2e",
+          "content": "Khoảng chín tím leo tui viết biết thương thuê bàn.",
+          "rating": 3,
+          "userName": "Ý Nhi Hoàng",
+          "dateReview": "2024-06-12T07:46:10.816Z"
+        },
+        {
+          "userId": "79145074-ebc0-4898-b10c-bf6fd5c69b05",
+          "content": "Ruộng xuồng xe yêu thuyền ờ anh.",
+          "rating": 2,
+          "userName": "Ngọc Loan Trịnh",
+          "dateReview": "2024-02-07T10:57:06.927Z"
+        },
+        {
+          "userId": "dfc35006-4ec9-4311-bc9a-de53de87fb8a",
+          "content": "Đỏ bốn hàng gió may bàn viết được con.",
+          "rating": 5,
+          "userName": "Khánh Hoàng Lê",
+          "dateReview": "2024-07-22T08:33:25.219Z"
+        },
+        {
+          "userId": "bad9dee7-1b15-49f5-a088-473026d8e379",
+          "content": "Thuyền đạp hết.",
+          "rating": 0,
+          "userName": "Như Hồng Ngô",
+          "dateReview": "2025-02-11T23:15:13.262Z"
+        },
+        {
+          "userId": "e8428457-16ee-42c8-aca3-f504b717dd97",
+          "content": "Bạn tàu khoan hương khâu đánh sáu chín.",
+          "rating": 3,
+          "userName": "Đình Lộc Đào",
+          "dateReview": "2024-04-05T22:09:15.486Z"
+        },
+        {
+          "userId": "2326e213-ff9a-4f02-8f3b-8a5f9646ed03",
+          "content": "Hết chìm tô áo xanh xe biết.",
+          "rating": 0,
+          "userName": "Thanh Lam Nguyễn",
+          "dateReview": "2025-04-08T13:51:53.355Z"
+        }
+      ]
     }
   ],
   "profile": []

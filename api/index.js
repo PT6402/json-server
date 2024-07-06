@@ -1,12 +1,19 @@
 const jsonServer = require('json-server');
 const path = require('path');
 const server = jsonServer.create();
-const router = jsonServer.router(`db.json`);
+const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const queryString = require('query-string');
 
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares);
+
+// Rewrite default URL
+// server.use(
+//   jsonServer.rewriter({
+//     '/api/v1/*': '/$1',
+//   }),
+// );
 
 // Add custom routes before JSON Server router
 server.get('/echo', (req, res) => {
@@ -30,13 +37,17 @@ router.render = (req, res) => {
   const totalCountHeader = header['x-total-count'];
   if (req.method === 'GET' && totalCountHeader) {
     const queryParams = queryString.parse(req._parsedUrl.query);
-    console.log(queryParams);
+    const _page = Number.parseInt(queryParams._page) || 1;
+    const _limit = Number.parseInt(queryParams._limit) || 10;
+    const _totalRows = Number.parseInt(totalCountHeader);
+    const _totalPages = Math.ceil(_totalRows / _limit);
+
     const result = {
       data: res.locals.data,
       pagination: {
-        _page: Number.parseInt(queryParams._page) || 1,
-        _limit: Number.parseInt(queryParams._limit) || 10,
-        _totalRows: Number.parseInt(totalCountHeader),
+        _page: _page,
+        _limit: _limit,
+        _totalPages: _totalPages, // Add this line to include the total number of pages
       },
     };
     return res.jsonp(result);
@@ -45,7 +56,8 @@ router.render = (req, res) => {
 };
 
 // Use default router
-server.use(router);
-server.listen(8080, () => {
-  console.log('JSON Server is running');
+server.use('/api/v1', router);
+
+server.listen(9090, () => {
+  console.log('JSON Server is running on http://localhost:9090/api/v1');
 });
